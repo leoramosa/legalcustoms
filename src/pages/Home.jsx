@@ -47,24 +47,21 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, EffectFade, Autoplay]);
               <SwiperSlide className="swiper_container-box_1">
                     <div className="overlay">
                   <div className="img_content">
-
-                      <p className="title_overlay">
-
-                    servicio
+                      <p className="title_type">
+                        Servicio
                       </p>
+                      <p className="title_overlay">
+                        Contractual
+                      </p>
+                      <a className="button_header" href>
+                        <button type="button">
+                          Más información
+                        </button>
+                      </a>
                     </div>
                   </div>
               </SwiperSlide>
-              <SwiperSlide className="swiper_container-box_2">
-                    <div className="overlay">
-              <div className="img_content">
-                   
-                      <p className="title_overlay">
-                        servicio 1 
-                      </p>
-                    </div>
-                  </div>
-              </SwiperSlide>
+             
              
             </Swiper>
           </div>

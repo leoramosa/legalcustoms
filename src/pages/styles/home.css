@@ -33,17 +33,19 @@
 	max-width: 1200px;
 	width: 100%;
 	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .full {
 	width: 100%;
-	height: 480px;
+	height: 520px;
 }
 
 .swiper_content_app {
 	width: 100%;
 	margin: 0 auto;
-	padding-top: 24px;
 }
 
 .swiper_container-box_1 {
@@ -58,12 +60,20 @@
 }
 
 .title_overlay {
-	font-weight: 700;
-	padding-left: 25px;
+	font-size: 50px;
+	color: #a79c73;
+	padding-bottom: 25px;
+	font-weight: 500;
+	padding-top: 15px;
 }
 
-.title_overlay span {
-	font-weight: 400;
+.button_header button {
+	padding: 12px 22px;
+	border: 0;
+	background: transparent;
+	color: #b69c73;
+	border: 1px solid #b69c73;
+	font-size: 27px;
 }
 
 /* project style */

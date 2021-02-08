@@ -6,7 +6,7 @@
 }
 
 .about-header {
-	background: url('../../images/about-cover.jpeg') center center;
+	background: url('../../images/about-cover.jpg') center center;
 	height: 600px;
 	background-size: cover;
 	color: white;
@@ -26,6 +26,7 @@
 .about_title {
 	font-size: 50px;
 	padding-bottom: 40px;
+	color: #b69c73;
 }
 .about_info {
 	font-size: 20px;
@@ -37,9 +38,9 @@
 }
 
 .contact_link {
-	border: 1px solid white;
-	background: transparent;
-	color: white;
+	border: 1px solid #b69c73;
+	background: #b69c73;
+	color: #39373d;
 	padding: 9px 27px;
 	font-size: 24px;
 	margin-top: 18px;
