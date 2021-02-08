@@ -1,6 +1,6 @@
 import React from 'react'
 import './styles/about.css'
-import imgInfo from '../images/about_only2.png'
+/* import imgInfo from '../images/about_only2.png' */
 
  const Home = () => {
   return (
@@ -12,7 +12,7 @@ import imgInfo from '../images/about_only2.png'
               <p className="about_title">Nuestra <strong>Historia</strong></p>
               <p className="about_info">Nuestra experiencia en el campo de la Geología </p>
               <br/>
-              <a className="" href="">
+              <a className="" href>
                 <button className="contact_link" type="button">
                 Contáctanos
                 </button>
