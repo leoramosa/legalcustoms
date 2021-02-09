@@ -35,7 +35,7 @@
 .wrapper_all {
 	width: 45%;
 	display: flex;
-	align-items: center;
+
 	justify-content: center;
 	text-align: left;
 	flex-direction: column;
@@ -77,24 +77,36 @@
 	width: 100%;
 	max-width: 1200px;
 	margin: auto;
+	color: white;
+	display: flex;
+	margin-top: 10px;
 }
 .title-event p {
 	/* display: inline-block; */
-	font-size: 25px;
+	font-size: 22px;
 	/* border-bottom: 2px solid #1299f6; */
-	color: #1299f6;
-	margin: 13px 0 32px 0;
+	color: white;
+	width: 100%;
 	text-align: left;
-	text-decoration: underline;
+	padding-left: 9px;
+	background: #39373d;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+.line_color {
+	width: 15px;
+
+	background-color: #b69c73;
 }
 
 .detail-title {
-	font-size: 60px;
+	font-size: 51px;
 	font-family: 'Montserrat', sans-serif;
-	color: #525252;
-	line-height: 64px;
+	color: #b69c73;
+	line-height: 57px;
 	text-align: left;
-	font-weight: 700;
+	font-weight: 600;
+	padding-bottom: 16px;
 }
 .detail-price {
 	padding: 5px 0 11px;
@@ -103,18 +115,19 @@
 
 .breve {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 16px;
+	font-size: 14px;
 	width: 100%;
 	font-weight: 400;
-	padding-top: 10px;
 }
 
 .button-whatsapp {
-	font-size: 31px;
-	background-color: #1299f6;
-	padding: 11px 46px;
-	border: none;
+	font-size: 24px;
+	background-color: transparent;
+	padding: 6px 17px;
+	border: 2px solid #b69c73;
 	transition: 0.5s;
+	color: #b69c73;
+	cursor: pointer;
 }
 .button-whatsapp-disable {
 	font-size: 20px;
@@ -132,7 +145,8 @@
 }
 
 .button-whatsapp:hover {
-	background-color: #0270b9;
+	background-color: #7b6747;
+	color: wheat;
 }
 .button-whatsapp:hover a {
 	color: white;

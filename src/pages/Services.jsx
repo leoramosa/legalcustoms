@@ -6,40 +6,39 @@ import './styles/services.css'
 // Import Swiper React components
 import 'swiper/swiper.scss';
 
-import ser1 from '../images/ser1.png'
-
-
-
 function Services () {
   const {state} =useContext(AppContext)
   const { services } = state;
-  console.log(services)
+
   
   return (
     <>
       <div className="content_services">
           <div className="title-event">
+            <div className="line_color"></div>
             <p>
-              Mis servicios
+              Nuestros servicios
             </p>
           </div>
-
-          <div className="row_service ">
+          {services.map((service, i) => (
+          <div key={i} className={`row_service ${service.column}`} >
           <div className="content-service-g">
                   <div className="services_all" >
                     <div className="wrapper_all">
                     <div className="breve">
                       <img src="{image} "alt=""/>
                     </div>
-                    <p className="detail-title">{services[0].name}</p>
-                    <div className="breve">{services[0].breve}</div>
+                    <p className="detail-title">{service.name}</p>
+                    <div className="breve">{service.breve1}</div>
+                    <div className="breve">{service.breve2}</div>
+                    <div className="breve"> &nbsp;&nbsp; {service.breve3}</div>
                     <div className="content-button">
                         <div className="content-bo">
-                          <button className="button-whatsapp" type="button">
-                            <a className="btn-whatsapp" href={`https://api.whatsapp.com/send?phone=51944408025&text=${services[0].mensaje}`} rel="noopener noreferrer" target="_blank">
-                              <i className="fab fa-whatsapp"></i> {services[0].buttontype}
+                            <a className="btn-whatsapp" href={`https://api.whatsapp.com/send?phone=51944408025&text=${service.mensaje}${service.name}`} rel="noopener noreferrer" target="_blank">
+                              <button className="button-whatsapp" type="button">
+                                  <i className="fab fa-whatsapp"></i> {service.buttontype}
+                              </button> 
                             </a>
-                          </button> 
                         </div>
                         <div className="content-bt">
                           <Link className="detail-ver" to="/one" >ver más</Link>
@@ -48,13 +47,14 @@ function Services () {
                     </div>
                     <div className="wrapper_two">
                       <div className="wrapper_img">
-                        <img className="" src={ser1} alt=""/>
+                        <img className="" src={service.image} alt=""/>
                       </div>
                     </div>
                    </div>
           </div>
           </div>
- 
+
+))}
         
         </div>
     </>
