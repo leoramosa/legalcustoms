@@ -38,7 +38,7 @@ import { Link } from "react-router-dom";
          </div>
        </div>
        <div className="derechos desktop">
-         <p>© Copyright Geoexplo Villavicencio 2021 -Todos los derechos reservados</p>
+         <p>© Legal Customs 2021 -Todos los derechos reservados</p>
          <p className="diseño">Diseñado y desarrollado por <a className="dweb" href="https://leoramos.netlify.app/" target="_blank" rel="noreferrer"> Leonardo Ramos</a></p>
        </div>
 
