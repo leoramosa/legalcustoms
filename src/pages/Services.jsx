@@ -25,9 +25,7 @@ function Services () {
           <div className="content-service-g">
                   <div className="services_all" >
                     <div className="wrapper_all">
-                    <div className="breve">
-                      <img src="{image} "alt=""/>
-                    </div>
+    
                     <p className="detail-title">{service.name}</p>
                     <div className="breve">{service.breve1}</div>
                     <div className="breve">{service.breve2}</div>

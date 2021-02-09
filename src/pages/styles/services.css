@@ -191,12 +191,19 @@
 
 /* end styles swiper */
 
+@media (max-width: 1200px) {
+	.row_service {
+		padding: 12px 25px;
+	}
+	.detail-title {
+		font-size: 36px;
+		line-height: 44px;
+	}
+}
+
 @media (max-width: 1228px) {
 	.services_detail {
 		margin: 0 15px;
-	}
-	.breve {
-		max-width: 280px;
 	}
 }
 @media (max-width: 960px) {
@@ -209,84 +216,58 @@
 }
 
 @media (max-width: 768px) {
+	.services_all {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.wrapper_all {
+		width: 100%;
+	}
+
+	.wrapper_two {
+		width: 100%;
+	}
+
 	.content-all-swiper {
 		margin: 0;
 	}
-	.title-event p {
-		font-size: 35px;
-		margin: 22px 0 32px 0;
+	.detail-title {
+		font-size: 36px;
+		line-height: 44px;
+		text-align: center;
 	}
 	.breve {
-		max-width: 249px;
+		text-align: center;
 	}
 	.content-button {
-		padding: 0 0;
-		padding-top: 12px;
+		padding-top: 14px;
+		justify-content: center;
+	}
+	.row_service {
+		padding-bottom: 25px;
 	}
 }
+
 @media (max-width: 600px) {
-	.title-event p {
-		font-size: 26px;
-		margin: 16px 0 23px 0;
-	}
-	.content-all-swiper {
-		padding: 0 10%;
-		margin: 0;
-	}
 	.detail-title {
+		font-size: 28px;
+		line-height: initial;
+	}
+	.button-whatsapp {
 		font-size: 18px;
-		padding: 4px 0px 5px;
 	}
-	.content-swiper {
-		padding: 14px 14px;
-	}
-	.content-button {
-		padding: 0 0px;
-		padding-top: 8px;
+	.content-bt {
+		font-size: 18px;
 	}
 }
-
 @media (max-width: 480px) {
-	.content-all-swiper {
-		padding: 0;
-		margin: 0 15px;
+	.breve {
+		font-size: 12px;
 	}
-}
-@media (max-width: 400px) {
-	.title-event p {
-		font-size: 26px;
-		margin: 16px 0 23px 0;
-	}
-	.content-all-swiper {
-		padding: 0 0%;
-		margin: 0;
+	.row_service {
+		padding: 15px 15px;
 	}
 	.detail-title {
-		font-size: 18px;
-		padding: 4px 0px 5px;
-	}
-	.content-swiper {
-		padding: 14px 14px;
-	}
-	.content-button {
-		padding: 0 0px;
-		padding-top: 8px;
-	}
-}
-
-@media (max-width: 320px) {
-	.title-event p {
-		font-size: 26px;
-		margin: 16px 0 23px 0;
-	}
-	.content-all-swiper {
-		margin: 0;
-	}
-	.detail-title {
-		font-size: 18px;
-		padding: 4px 0px 5px;
-	}
-	.content-swiper {
-		padding: 14px 14px;
+		font-size: 20px;
 	}
 }

@@ -23,6 +23,7 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, EffectFade, Autoplay]);
     <>
 
       <div className="content_home">
+      
         <NavBar/>
         <div className="Home_container">
         <div className="swiper_content_app">
@@ -32,10 +33,10 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, EffectFade, Autoplay]);
               slidesPerView={1}
               navigation
               loop={true}
-              autoplay= {{
+              /* autoplay= {{
                 delay: 2500,
                 disableOnInteraction: false,
-              }}
+              }} */
               pagination={{ clickable: true }}
               onSlideChange={() => console.log('slide change')}
               onSwiper={(swiper) => console.log(swiper)}
@@ -45,7 +46,7 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, EffectFade, Autoplay]);
                     <div className="overlay">
                   <div className="img_content">
                       <p className="title_type">
-                        Servicio
+                        Servicios
                       </p>
                       <p className="title_overlay">
                       Negociación y conciliación
@@ -62,16 +63,16 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, EffectFade, Autoplay]);
                     <div className="overlay">
                   <div className="img_content">
                       <p className="title_type">
-                        Servicio
+                        Servicios
                       </p>
                       <p className="title_overlay">
                         Precios de Transferencia
                       </p>
-                      <a className="button_header" href>
+                      <Link to="/servicios/precios-de-transferencia" className="button_header" >
                         <button type="button">
                           Más información
                         </button>
-                      </a>
+                      </Link>
                     </div>
                   </div>
               </SwiperSlide>
@@ -91,7 +92,7 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, EffectFade, Autoplay]);
                 </div>
                 <div className="project_info">
                   {/* <p className="project_info_title">ss</p> */}
-                  <Link to="/servicios/contractual" className="project_plus" href>ver más</Link>
+                  <Link to="/servicios/contractual" className="project_plus" >ver más</Link>
                 </div>
               </div>
               <div className="project_box">

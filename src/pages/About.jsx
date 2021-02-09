@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom'
   return (
     <>
       <div className="content_about">
+        
         <div className="about-header">
           <div className="about_overlay">
           <div className="about_container">
