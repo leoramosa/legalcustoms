@@ -215,7 +215,18 @@ h1.form-success {
 	width: 35px;
 }
 
+@media screen and (max-width: 1200px) {
+	.content_map {
+		width: 400px;
+		padding: 0 15px;
+	}
+}
+
 @media screen and (max-width: 768px) {
+	.content_map {
+		width: 350px;
+		padding: 0 15px;
+	}
 	.form-content-left {
 		text-align: center;
 		padding-top: 22px;
@@ -229,5 +240,13 @@ h1.form-success {
 @media screen and (max-width: 700px) {
 	.form-container {
 		display: initial;
+	}
+}
+
+@media screen and (max-width: 488px) {
+	.content_map {
+		width: 300px;
+		height: 250px;
+		padding: 0 15px;
 	}
 }

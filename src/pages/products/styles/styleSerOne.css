@@ -76,6 +76,7 @@
 	padding: 18px 0px;
 	border-bottom: 1px solid #9c9c9c;
 	margin-top: 8px;
+	display: flex;
 }
 
 .detail_requestTwo {
@@ -113,26 +114,81 @@
 	margin: 0 11px;
 }
 
-@media only screen and (max-width: 1400px) {
-	.content-title {
-		font-size: 50px;
+@media only screen and (max-width: 1200px) {
+	.service_detail_content {
+		padding-top: 35px;
+		padding-bottom: 40px;
+		padding-left: 25px;
+		padding-right: 25px;
 	}
 }
 
-@media only screen and (max-width: 1140px) {
+@media only screen and (max-width: 1100px) {
+	.service_detail-img img {
+		box-shadow: 9px 10px 1px #b69c73;
+	}
+	.detail_request,
+	.detail_requestTwo {
+		font-size: 14px;
+	}
+	.detail_request .btn_email {
+		margin: 0 3px;
+	}
+	.detail_request .whatsapp {
+		margin: 0 3px;
+	}
+	.detail_requestTwo .btn_call {
+		margin: 0 4px;
+	}
 }
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 910px) {
+	.service_detail_content {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.service_detail {
+		width: 100%;
+	}
+	.service_detail-img {
+		width: 100%;
+		padding-bottom: 22px;
+	}
+	.header-service {
+		height: 155px;
+	}
+
+	.content-title {
+		font-size: 40px;
+	}
+	.service_detail ul {
+		line-height: initial;
+	}
 }
 
 @media only screen and (max-width: 586px) {
+	.content-link-request {
+		padding-top: 22px;
+	}
+	.detail_request {
+		flex-direction: column;
+	}
+	.header-service {
+		height: 115px;
+	}
+	.content-title {
+		font-size: 24px;
+		padding: 0 5px;
+	}
+
+	.logo img {
+		width: 160px;
+		padding-left: 7px;
+	}
 }
 
 @media only screen and (max-width: 576px) {
 }
 
 @media only screen and (max-width: 480px) {
-	.content-title {
-		font-size: 20px;
-	}
 }
