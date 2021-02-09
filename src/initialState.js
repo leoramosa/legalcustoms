@@ -5,6 +5,7 @@ export default {
       'id':1,
       'name':'Aduanas y comercio exterior',
       'image': 'https://apiweb.netlify.app/images/legalcustoms/ser1.png',
+      'detail': 'https://apiweb.netlify.app/images/detail/detail-1.jpg',
       'price':'',
       'breve1': '- Comercio internacional. compra – venta internacional.',
       'breve2': '- Transacciones y acuerdos de comercio internacional.',
@@ -12,12 +13,14 @@ export default {
       'buttontype':'solicitar',
       'tipo':'servicios',
       'mensaje':'Buenas%20tardes%20estudio%20Legal%20Customs%2C%20quisiera%20informaci%C3%B3n%20sobre%20el%20servicio%20de%20',
-      'column':'one'
+      'column':'one',
+      'link':'aduanas-y-comercio-exterior'
     },
     {
       'id':2,
-      'name':'Transporte maritimo, aereo y multimodal',
+      'name':'Transporte maritimo, aéreo y multimodal',
       'image': 'https://apiweb.netlify.app/images/legalcustoms/ser2.png',
+      'detail': 'https://apiweb.netlify.app/images/detail/detail-2.jpg',
       'price':'',
       'breve1': '- Contratos de transporte de carga general – contratos multimodales – contratación de transporte aéreo – contrato de fletamento.',
       'breve2': '',
@@ -25,12 +28,14 @@ export default {
       'buttontype':'solicitar',
       'tipo':'servicios',
       'mensaje':'Buenas%20tardes%20estudio%20Legal%20Customs%2C%20quisiera%20informaci%C3%B3n%20sobre%20el%20servicio%20de%20',
-      'column':'two'
+      'column':'two',
+      'link':'transporte-maritimo-mas'
     },
     {
       'id':3,
-      'name':'Administrativo y regulatorio:',
+      'name':'Administrativo y regulatorio',
       'image': 'https://apiweb.netlify.app/images/legalcustoms/ser3.png',
+      'detail': 'https://apiweb.netlify.app/images/detail/detail-3.jpg',
       'price':'',
       'breve1': '- Concesiones terrestres, portuarias y aeroportuarias. ',
       'breve2': ' ',
@@ -38,24 +43,28 @@ export default {
       'buttontype':'solicitar',
       'tipo':'servicios',
       'mensaje':'Buenas%20tardes%20estudio%20Legal%20Customs%2C%20quisiera%20informaci%C3%B3n%20sobre%20el%20servicio%20de%20',
-      'column':'one'
+      'column':'one',
+      'link':'administrativo-y-regulatorio'
     },
     {
       'id':4,
       'name':'Procesal',
       'image': 'https://apiweb.netlify.app/images/legalcustoms/ser4.png',
+      'detail': 'https://apiweb.netlify.app/images/detail/detail-4.jpg',
       'price':'',
       'breve1': '- Consultoría en litigios y atención de controversias.',
       'breve2': '- Litigios estratégicos.',
       'buttontype':'solicitar',
       'tipo':'servicios',
       'mensaje':'Buenas%20tardes%20estudio%20Legal%20Customs%2C%20quisiera%20informaci%C3%B3n%20sobre%20el%20servicio%20de%20',
-      'column':'two'
+      'column':'two',
+      'link':'procesal'
     },
     {
       'id':5,
       'name':'Negociación y conciliación',
       'image': 'https://apiweb.netlify.app/images/legalcustoms/ser5.png',
+      'detail': 'https://apiweb.netlify.app/images/detail/detail-5.jpg',
       'price':'',
       'breve1': '- Representación de patrocinados ante todas las instancias conciliatorias. ',
       'breve2': ' ',
@@ -63,12 +72,14 @@ export default {
       'buttontype':'solicitar',
       'tipo':'servicios',
       'mensaje':'Buenas%20tardes%20estudio%20Legal%20Customs%2C%20quisiera%20informaci%C3%B3n%20sobre%20el%20servicio%20de%20',
-      'column':'one'
+      'column':'one',
+      'link':'negociacion-y-conciliacion'
     },
     {
       'id':6,
       'name':'Arbitraje',
       'image': 'https://apiweb.netlify.app/images/legalcustoms/ser6.png',
+      'detail': 'https://apiweb.netlify.app/images/detail/detail-6.jpg',
       'price':'',
       'breve1': '- Convenio arbitral. redacción de cláusulas arbitrales.',
       'breve2': '- Defensa legal ante tribunales arbitrales.  ',
@@ -76,12 +87,14 @@ export default {
       'buttontype':'solicitar',
       'tipo':'servicios',
       'mensaje':'Buenas%20tardes%20estudio%20Legal%20Customs%2C%20quisiera%20informaci%C3%B3n%20sobre%20el%20servicio%20de%20',
-      'column':'two'
+      'column':'two',
+      'link':'arbitraje'
     },
     {
       'id':7,
       'name':'Laboral',
       'image': 'https://apiweb.netlify.app/images/legalcustoms/ser7.png',
+      'detail': 'https://apiweb.netlify.app/images/detail/detail-7.jpg',
       'price':'',
       'breve1': '- Diagnostico laboral',
       'breve2': '- Planeamiento laboral',
@@ -89,12 +102,14 @@ export default {
       'buttontype':'solicitar',
       'tipo':'servicios',
       'mensaje':'Buenas%20tardes%20estudio%20Legal%20Customs%2C%20quisiera%20informaci%C3%B3n%20sobre%20el%20servicio%20de%20',
-      'column':'one'
+      'column':'one',
+      'link':'laboral'
     },
     {
       'id':8,
       'name':'Contractual ',
       'image': 'https://apiweb.netlify.app/images/legalcustoms/ser8.png',
+      'detail': 'https://apiweb.netlify.app/images/detail/detail-8.jpg',
       'price':'',
       'breve1': '- Asesoría y consultoría en procesos de adquisición de bienes y/o servicio de contratación con el estado.',
       'breve2': ' ',
@@ -102,12 +117,14 @@ export default {
       'buttontype':'solicitar',
       'tipo':'servicios',
       'mensaje':'Buenas%20tardes%20estudio%20Legal%20Customs%2C%20quisiera%20informaci%C3%B3n%20sobre%20el%20servicio%20de%20',
-      'column':'two'
+      'column':'two',
+      'link':'contractual'
     },
     {
       'id':9,
       'name':'Corporativo',
       'image': 'https://apiweb.netlify.app/images/legalcustoms/ser9.png',
+      'detail': 'https://apiweb.netlify.app/images/detail/detail-9.jpg',
       'price':'',
       'breve1': '- Constitución de empresas, aumento de capital, modificaciones estatutarias, transformaciones, fusiones, escisiones y adquisiciones, due diligence.  ',
       'breve2': ' ',
@@ -115,12 +132,14 @@ export default {
       'buttontype':'solicitar',
       'tipo':'servicios',
       'mensaje':'Buenas%20tardes%20estudio%20Legal%20Customs%2C%20quisiera%20informaci%C3%B3n%20sobre%20el%20servicio%20de%20',
-      'column':'one'
+      'column':'one',
+      'link':'corporativo'
     },
     {
       'id':10,
       'name':'Precios de transferencia',
       'image': 'https://apiweb.netlify.app/images/legalcustoms/ser10.png',
+      'detail': 'https://apiweb.netlify.app/images/detail/detail-10.jpg',
       'price':'',
       'breve1': '- Precios de transferencia, elaboración de documentación comprobatoria y planeamiento.',
       'breve2': ' ',
@@ -128,12 +147,14 @@ export default {
       'buttontype':'solicitar',
       'tipo':'servicios',
       'mensaje':'Buenas%20tardes%20estudio%20Legal%20Customs%2C%20quisiera%20informaci%C3%B3n%20sobre%20el%20servicio%20de%20',
-      'column':'two'
+      'column':'two',
+      'link':'precios-de-transferencia'
     },
     {
       'id':11,
       'name':'Tributario',
       'image': 'https://apiweb.netlify.app/images/legalcustoms/ser11.png',
+      'detail': 'https://apiweb.netlify.app/images/detail/detail-11.jpg',
       'price':'',
       'breve1': '- Asesoría y consultoría en impuestos. ',
       'breve2': '- Consultoría tributaria permanente.',
@@ -141,7 +162,8 @@ export default {
       'buttontype':'solicitar',
       'tipo':'servicios',
       'mensaje':'Buenas%20tardes%20estudio%20Legal%20Customs%2C%20quisiera%20informaci%C3%B3n%20sobre%20el%20servicio%20de%20',
-      'column':'one'
+      'column':'one',
+      'link':'tributario'
     },
   
     

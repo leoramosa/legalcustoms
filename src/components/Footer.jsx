@@ -11,26 +11,28 @@ import { Link } from "react-router-dom";
       
        <div className="content_info">
          <div className="info">
-           <p className="title-info">Contáctame</p>
+           <p className="title-info">Contáctanos</p>
            <div className="">
-            <p>Teléfono: +51 993 861 447</p>
-            <p>Email: vemtas@geoexplovillavicencio.com</p>
-            <p>Direción: Lima - Perú</p>
+            <p>Teléfono: +51 936 859 231</p>
+            <p>Email: mchavez@legalcustomsperu.com</p>
+            <p>Direción: Calle Enrique Pastor  108
+              <br/>
+              Urb. Javier Prado - San Borja - Lima</p>
            </div>
          </div>
          <div className="redes">
             <p className="title-info">Sígueme:</p>
             <div className="icon-redes">
-              <a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><i className="fab fa-facebook-square"></i></a>
-              <a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><i className="fab fa-instagram"></i></a>
+              <a href="https://www.facebook.com/legal.customs.pe" target="_blank" rel="noreferrer"><i className="fab fa-facebook-square"></i></a>
+              <a href="https://www.instagram.com/legal.customs.pe" target="_blank" rel="noreferrer"><i className="fab fa-instagram"></i></a>
 
             </div>
          </div>
          <div className="explorer">
            <p className="title-info">Destacados</p>
            <div className="link-footer">
-            <Link className="footerLink" to="/s"><p>Proyectos</p></Link> 
-            <Link className="footerLink" to="/s"><p>Servicios</p></Link> 
+            <Link className="footerLink" to="/nosotros"><p>Nosotros</p></Link> 
+            <Link className="footerLink" to="/servicios"><p>Servicios</p></Link> 
              
            </div>
          </div>

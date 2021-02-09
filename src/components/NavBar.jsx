@@ -31,7 +31,7 @@ const NavBar = () => {
                 <li onClick={toggleMenu} className="navevent"><NavLink activeClassName="current" to="/" exact>Inico</NavLink></li>
                 <li onClick={toggleMenu} className="navevent"><NavLink activeClassName="current" to="/nosotros" exact>Nosotros</NavLink></li>
                 <li onClick={toggleMenu} className="navevent"><NavLink activeClassName="current" to="/servicios" exact>Servicios</NavLink></li>
-                <li onClick={toggleMenu} className="navevent"><NavLink activeClassName="current" to="/s" exact>Contátenos</NavLink></li>
+                <li onClick={toggleMenu} className="navevent"><NavLink activeClassName="current" to="/contacto" exact>Contáctanos </NavLink></li>
                 <li onClick={toggleMenu}>
                     <img src={Close} alt="" width="30" className="menu" />
                 </li>

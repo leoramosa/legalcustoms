@@ -7,7 +7,7 @@
 
 .about-header {
 	background: url('../../images/about-cover.jpg') center center;
-	height: 600px;
+	height: 460px;
 	background-size: cover;
 	color: white;
 }
@@ -60,4 +60,22 @@
 
 .row_about p {
 	line-height: 28px;
+}
+.second_title {
+	font-size: 28px;
+	font-weight: 600;
+	color: #b69c73;
+	margin: 35px 0 12px 0;
+}
+
+.img_about img {
+	width: 100%;
+	padding: 0 33px;
+}
+
+.link_contact {
+	cursor: pointer;
+}
+.link_contact button {
+	cursor: pointer;
 }

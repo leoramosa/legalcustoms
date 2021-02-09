@@ -39,6 +39,9 @@
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
+.map_google {
+	padding-bottom: 25px;
+}
 
 /* .form.form-success-ok h1 {
   font-size: 22px;
@@ -116,7 +119,7 @@ h1.form-success {
 	height: 40px;
 	width: 100%;
 	border: none;
-	border: 1px solid #af8bd0;
+	border: 1px solid #b69c73;
 	padding: 10px 13px;
 }
 
@@ -130,7 +133,7 @@ h1.form-success {
 	height: 50px;
 	margin-top: 10px;
 	border-radius: 2px;
-	background: linear-gradient(90deg, #7619eb 0%, #b379fb 100%);
+	background: linear-gradient(90deg, #b69c73 0%, #886f47 100%);
 	outline: none;
 	border: none;
 	color: #fff;
@@ -156,7 +159,7 @@ h1.form-success {
 
 .form-input-btn:hover {
 	cursor: pointer;
-	background: linear-gradient(90deg, #b379fb 0%, #7619eb 100%);
+	background: linear-gradient(90deg, #886f47 0%, #b69c73 100%);
 	transition: all 0.4s ease-out;
 }
 

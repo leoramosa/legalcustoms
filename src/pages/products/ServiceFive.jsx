@@ -17,7 +17,7 @@ const ServiceOne = () => {
             <div className="overlay_service">
                 <div className="content-title">
                     <p>
-                      {services[0].name}
+                      {services[4].name}
                     </p>
                 </div>
               </div>
@@ -27,22 +27,17 @@ const ServiceOne = () => {
         <div className="service_detail_content">
           <div className="service_detail">
               <ul>
-              <li>Comercio Internacional. Compra – venta internacional.</li>
-               <li> Transacciones y acuerdos de Comercio Internacional.</li>
-               <li>  Asesoría y Consultoría de Impuestos.</li>
-               <li> Recuperación de créditos fiscales. </li>
-               <li>  Auditoría Aduanera.</li>
-               <li> Asesoría en procesos de fiscalización aduanera.</li>
+              <li>Representación de Patrocinados ante todas las Instancias Conciliatorias. (Centros de Conciliación en General, Conciliación Laboral, Protección al Consumidor ante el INDECOPI).</li>
             </ul>
             <div className="detail_request">
-              Envíanos tu información : <a className="whatsapp" href={`https://api.whatsapp.com/send?phone=51936859231&text=${services[0].mensaje}${services[0].name}`}><i className="fab fa-whatsapp"></i> whatsapp </a> <a className="btn_email" href="mailto:mchavez@legalcustomsperu.com" without rel="noreferrer" target="_blank"><i className="far fa-envelope"></i> correo</a>
+              Envíanos tu información : <a className="whatsapp" href={`https://api.whatsapp.com/send?phone=51936859231&text=${services[4].mensaje}${services[4].name}`}><i className="fab fa-whatsapp"></i> whatsapp </a> <a className="btn_email" href="mailto:mchavez@legalcustomsperu.com" without rel="noreferrer" target="_blank"><i className="far fa-envelope"></i> correo</a>
             </div>
             <div className="detail_requestTwo">
               Llamanos : <a href="tel://+51936859231" className="btn_call"><i className="fas fa-phone-alt"></i> +51 936 859 231</a>
             </div>
           </div>
           <div className="service_detail-img">
-            <img src={services[0].detail} alt=""/>
+            <img src={services[4].detail} alt=""/>
           </div>
         </div>
 

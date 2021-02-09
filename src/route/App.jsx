@@ -13,6 +13,14 @@ import ServiceOne from '../pages/products/ServiceOne'
 import ServiceTwo from '../pages/products/ServiceTwo'
 import ServiceThree from '../pages/products/ServiceThree'
 import ServiceFour from '../pages/products/ServiceFour'
+import ServiceFive from '../pages/products/ServiceFive'
+import ServiceSix from '../pages/products/ServiceSix'
+import ServiceSeven from '../pages/products/ServiceSeven'
+import ServiceEight from '../pages/products/ServiceEight'
+import ServiceNine from '../pages/products/ServiceNine'
+import ServiceTen from '../pages/products/ServiceTen'
+import ServiceEleven from '../pages/products/ServiceEleven'
+
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import ScrollTop from '../components/ScrollTop';
 
@@ -33,10 +41,18 @@ function App ()  {
             <Layout>
             <Route  exact path="/nosotros" component={About} />
             <Route  exact path="/servicios" component={Services}  />
-            <Route  exact path="/servicios/tarot-evolutivo" component={ServiceOne}  />
-            <Route  exact path="/servicios/consulta-astral" component={ServiceTwo}  />
-            <Route  exact path="/servicios/psicomatrix" component={ServiceThree}  />
-            <Route  exact path="/productos/floral-healing-pharmacy" component={ServiceFour}  />
+            <Route  exact path="/servicios/aduanas-y-comercio-exterior" component={ServiceOne}  />
+            <Route  exact path="/servicios/transporte-maritimo-mas" component={ServiceTwo}  />
+            <Route  exact path="/servicios/administrativo-y-regulatorio" component={ServiceThree}  />
+            <Route  exact path="/servicios/procesal" component={ServiceFour}  />
+            <Route  exact path="/servicios/negociacion-y-conciliacion" component={ServiceFive}  />
+            <Route  exact path="/servicios/arbitraje" component={ServiceSix}  />
+            <Route  exact path="/servicios/laboral" component={ServiceSeven}  />
+            <Route  exact path="/servicios/contractual" component={ServiceEight}  />
+            <Route  exact path="/servicios/corporativo" component={ServiceNine}  />
+            <Route  exact path="/servicios/precios-de-transferencia" component={ServiceTen}  />
+            <Route  exact path="/servicios/tributario" component={ServiceEleven}  />
+
             <Route  exact path="/contacto"  component={Contact} />
             </Layout>
             

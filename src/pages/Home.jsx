@@ -3,10 +3,6 @@ import './styles/home.css'
 import NavBar from '../components/NavBar'
 import Footer from '../components/Footer'
 
-import project1 from '../images/project1.jpg'
-import project2 from '../images/project2.jpg'
-import project3 from '../images/project3.jpg'
-
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper.scss';
@@ -17,6 +13,7 @@ import 'swiper/components/scrollbar/scrollbar.scss';
 
 // import Swiper core and required components
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y, EffectFade, Autoplay } from 'swiper';
+import { Link } from 'react-router-dom'
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, EffectFade, Autoplay]);
 
 
@@ -51,7 +48,24 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, EffectFade, Autoplay]);
                         Servicio
                       </p>
                       <p className="title_overlay">
-                        Contractual
+                      Negociación y conciliación
+                      </p>
+                      <Link to="/servicios/negociacion-y-conciliacion" className="button_header" >
+                        <button type="button">
+                          Más información
+                        </button>
+                      </Link>
+                    </div>
+                  </div>
+              </SwiperSlide>
+              <SwiperSlide className="swiper_container-box_2">
+                    <div className="overlay">
+                  <div className="img_content">
+                      <p className="title_type">
+                        Servicio
+                      </p>
+                      <p className="title_overlay">
+                        Precios de Transferencia
                       </p>
                       <a className="button_header" href>
                         <button type="button">
@@ -67,42 +81,59 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, EffectFade, Autoplay]);
           </div>
 
           <div className="projects">
-            <p className="project_title">PROYECTOS</p>
+            <p className="project_title">Servicios destacados</p>
             <div className="project_count">
               <div className="project_box">
-                <div className="project_img">
-                  <img src={project1} alt=""/>
+                <div className="project_img one">
+                <div className="project_img_content">
+                    Contractual
+                  </div>
                 </div>
                 <div className="project_info">
-                  <p className="project_info_title">ss</p>
-                  <a className="project_plus" href>ver más</a>
+                  {/* <p className="project_info_title">ss</p> */}
+                  <Link to="/servicios/contractual" className="project_plus" href>ver más</Link>
                 </div>
               </div>
               <div className="project_box">
-                <div className="project_img">
-                  <img src={project2} alt=""/>
+                <div className="project_img two">
+                <div className="project_img_content">
+                    Corporativo
+                  </div>
                 </div>
                 <div className="project_info">
-                <p className="project_info_title">ss</p>
-                  <a className="project_plus" href>ver más</a>
+               {/*  <p className="project_info_title">ss</p> */}
+                  <Link to="/servicios/corporativo" className="project_plus" href>ver más</Link>
                 </div>
               </div>
               <div className="project_box">
-                <div className="project_img">
-                  <img src={project3} alt=""/>
+                <div className="project_img three">
+                  <div className="project_img_content">
+                    Tributario
+                  </div>
                 </div>
                 <div className="project_info">
-                <p className="project_info_title">ss</p>
-                  <a className="project_plus" href>ver más</a>
+                {/* <p className="project_info_title">ss</p> */}
+                  <Link to="/servicios/tributario"  className="project_plus" href>ver más</Link>
+                </div>
+              </div>
+              <div className="project_box">
+                <div className="project_img four">
+                  <div className="project_img_content">
+                    Arbitraje
+                  </div>
+                </div>
+                <div className="project_info">
+                {/* <p className="project_info_title">ss</p> */}
+                  <Link to="/servicios/Arbitraje" className="project_plus" href>ver más</Link>
                 </div>
               </div>
             </div>
             <div className="project_button">
-              <a href>
+              <Link to="/servicios">
                 <button type="button">
-                  ver más proyectos
+                  ver más servicios
                 </button>
-              </a>
+              </Link>
             </div>
           </div>
           </div>
