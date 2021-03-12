@@ -9,10 +9,10 @@ const Layout = ( {children} ) => {
     <div className="layout-global">
       <NavBar/>
       <MessengerCustomerChat
-    pageId="103663745077318"
-    appId="775872919759099"
-    /* htmlRef="<REF_STRING>" */
-  />
+          pageId="103663745077318"
+          appId="775872919759099"
+          /* htmlRef="<REF_STRING>" */
+        />
       <div className="layout-content">
         {children}
       </div>
