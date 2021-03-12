@@ -1,7 +1,5 @@
 import React from 'react'
 import './styles/home.css'
-import NavBar from '../components/NavBar'
-import Footer from '../components/Footer'
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
